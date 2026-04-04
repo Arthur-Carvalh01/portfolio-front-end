@@ -5,29 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
+
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="curriculo.html">Curriculo</a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
 
-            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível com um 
-            <strong class="titulo-destaque">Front-end de qualidade!</strong></h1>
+            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="titulo__destaque">
+            com um Front-end de qualidade!</strong></h1>
 
             <p class="apresentacao__conteudo__texto">Olá! Sou José Arthur, estudante de Inteligência Artificial na UFPE e em desenvolvimento Front-end.
             Ajudo a construir interfaces funcionais e a colocar boas ideias em prática na web. Vamos conversar?</p>
             
             <div class="apresentacao__links">
-            <a class="apresentacao__links__link" href="www.linkedin.com/in/josé-arthur-5b2731320">
-            Linkedin</a>
-            <a class="apresentacao__links__link" href="https://github.com/Arthur-Carvalh01">Github</a>
+
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+
+                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/jose-arthur-5b2731320/">
+                    <img src="./assets/linkedin.png"> Linkedin
+                </a>
+
+                <a class="apresentacao__links__link" href="https://github.com/Arthur-Carvalh01">
+                    <img src="./assets/github.png"> Github
+                </a>
+
+                <a class="apresentacao__links__link" href="https://www.instagram.com/arthur_carvalh01/">
+                    <img src="./assets/instagram.png"> Instagram
+                </a>
+
             </div>
         
         </section>
         
-        <img src="foto-3x4_gpt.png" alt="Imagem Perfil">
+        <img src="./assets/foto-3x4_gpt.png" alt="Imagem Perfil">
     </main>
-    <footer></footer>
+
+    <footer>
+        <p class="rodape">Desenvolvido por José Arthur.</p>
+    </footer>
 </body>
 </html>
